@@ -148,7 +148,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({
                   <p className="text-gray-300">
                     hello@creativeagency.com
                     <br />
-                    +1 (212) 555-1234
+                    +91 (901)20-81550
                   </p>
                 </div>
               </div>

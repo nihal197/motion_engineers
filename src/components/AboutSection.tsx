@@ -51,24 +51,24 @@ const AboutSection: React.FC<AboutSectionProps> = ({
   ],
   teamMembers = [
     {
-      name: "Alex Morgan",
-      role: "Creative Director",
-      image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
-    },
-    {
-      name: "Jordan Lee",
-      role: "Strategy Lead",
+      name: "Manish Chaudhary",
+      role: "Founder",
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan",
     },
     {
-      name: "Taylor Kim",
-      role: "Design Lead",
+      name: "Medha",
+      role: "Founder & CEO",
+      image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Casey",
+    },
+    {
+      name: "Nihal Singh",
+      role: "Founder & CTO",
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Taylor",
     },
     {
-      name: "Casey Rivera",
-      role: "Digital Marketing",
-      image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Casey",
+      name: "Yogesh",
+      role: "Founder",
+      image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan",
     },
   ],
 }) => {

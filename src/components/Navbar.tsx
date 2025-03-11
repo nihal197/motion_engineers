@@ -10,7 +10,7 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({
-  logo = "AGENCY",
+  logo = "Motion Engineers",
   links = [
     { title: "Home", href: "#" },
     { title: "Work", href: "#portfolio" },
@@ -18,7 +18,7 @@ const Navbar: React.FC<NavbarProps> = ({
     { title: "Services", href: "#services" },
     { title: "Contact", href: "#contact" },
   ],
-  contactPhone = "+1 (555) 123-4567",
+  contactPhone = "+91 90120-81550",
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

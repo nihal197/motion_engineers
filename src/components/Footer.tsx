@@ -29,10 +29,10 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({
-  companyName = "Creative Agency",
+  companyName = "Motion Engineers",
   address = "123 Madison Avenue, New York, NY 10001",
-  phone = "+1 (555) 123-4567",
-  email = "hello@creativeagency.com",
+  phone = "+91 (901)20-81550",
+  email = "business@motionengineers.in",
   socialLinks = {
     facebook: "https://facebook.com",
     twitter: "https://twitter.com",
