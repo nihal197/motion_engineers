@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import PortfolioGrid from "./PortfolioGrid";
 import AboutSection from "./AboutSection";
 import Footer from "./Footer";
+import { Hero } from './Hero';
 
 const Home: React.FC = () => {
   return (
@@ -12,17 +13,7 @@ const Home: React.FC = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <HeroSection
-        headline="We Create Campaigns That Get Results"
-        subheadline="Award-winning creative agency specializing in brand strategy, digital experiences, and integrated campaigns."
-        ctaText="View Our Work"
-        onCtaClick={() => {
-          const portfolioSection = document.getElementById("portfolio");
-          if (portfolioSection) {
-            portfolioSection.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
-      />
+      <Hero />
 
       {/* Portfolio Section */}
       <div id="portfolio">
